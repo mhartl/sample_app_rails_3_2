@@ -25,10 +25,10 @@ end
 group :test do
   gem 'capybara', '1.1.2'
   gem 'factory_girl_rails', '1.4.0'
-  # gem 'rb-fsevent', '0.4.3.1', :require => false
-  # gem 'growl', '1.0.3'
-  # gem 'guard-spork', '0.3.2'  
-  # gem 'spork', '0.9.0'
+  gem 'rb-fsevent', '0.4.3.1', :require => false
+  gem 'growl', '1.0.3'
+  gem 'guard-spork', '0.3.2'  
+  gem 'spork', '0.9.0'
 end
 
 group :production do
