@@ -13,7 +13,6 @@ describe "User pages" do
 
     before do
       sign_in user
-      
       visit users_path
     end
 
