@@ -4,4 +4,4 @@
   <% if current_user.admin? && !current_user?(user) %>
     | <%= link_to "delete", user, method: :delete, confirm: "You sure?" %>
   <% end %>
-  </li>
+</li>
