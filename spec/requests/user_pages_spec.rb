@@ -28,7 +28,7 @@ describe "User pages" do
         end
       end      
     end
-    
+
     describe "delete links" do
 
       it { should_not have_link('delete') }
@@ -48,8 +48,6 @@ describe "User pages" do
       end
     end
   end
-
-
 
   describe "signup page" do
     before { visit signup_path }
