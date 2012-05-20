@@ -1,6 +1,11 @@
 SampleApp::Application.routes.draw do
+  get "microposts/create"
+
+  get "microposts/destroy"
+
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
+  resources :microposts, only: [:create, :destroy]
 
   root to: 'static_pages#home'
 
